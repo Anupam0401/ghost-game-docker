@@ -64,9 +64,10 @@ Step 4: start node server
 Step 5: access the nodejs application from browser 
 
 App running at:
-    -   ghostgame-siteserver-1    |   - Local:   http://localhost:8080/
-    -   ghostgame-siteserver-1    |   - Network: http://172.19.0.2:8080/
-
+```
+    ghostgame-siteserver-1    |   - Local:   http://localhost:8080/
+    ghostgame-siteserver-1    |   - Network: http://172.19.0.2:8080/
+```
 #### To build a docker image from the application
 
     docker build -t my-app:1.0 .       
